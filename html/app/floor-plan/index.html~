@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+	<link href="main.css" rel="stylesheet">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content = "width = 420, user-scalable = no" /> 
 	<title>WebIOPi | Floor Plan</title>
@@ -21,9 +22,14 @@
 	}
 	</style>
 </head>
-<body >
-   	<div class="body">
-		<a href="../../index.html">home</a>
+<body>
+   	<div class="navigation">
+		<a href="../../index.html">phone home</a>
 	</div>
+	
+	<div class="floor-plan">
+		<h1>Floor Plan</h1>
+	</div>
+	
 </body>
 </html>
