@@ -2,8 +2,10 @@
 <html>
 <head>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Cook/Hipps Christmas Lights</title>
+        <title>Christmas Lights</title>
+        
         <script type="text/javascript" src="/webiopi.js"></script>
         <script type="text/javascript">
         webiopi().ready(function() {

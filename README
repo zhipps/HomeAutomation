@@ -1,0 +1,19 @@
+
+
+
+
+
+
+WebioPi commands:
+
+sudo /etc/init.d/webiopi restart [start, stop, status]
+
+vim /etc/webiopi/config
+
+
+
+git commands:
+
+git add *					//add everything to the commit list
+git commit -m "message"		//commit files with "message"
+git push origin master		//push the master branch to github

@@ -1,0 +1,7 @@
+WebioPi commands:
+
+sudo /etc/init.d/webiopi restart [start, stop, status]
+
+vim /etc/webiopi/config
+
+
