@@ -48,7 +48,16 @@
     display: block;
 }
 
+
+
+
+
+
+
+
 .content
 {
-	
+	background-image: url("https://lh3.googleusercontent.com/-xFUhf1-JB5E/UY2aWJxVPgI/AAAAAAAAAbA/zWUXCU53o2w/w759-h569-no/IMG_0950.jpg");
+                    margin: "auto";
+                    opacity: 0.5;
 }

@@ -6,7 +6,8 @@
 }
 
 .navigation ul
-{
+{	
+	font-family: serif;
 	list-style: none;
 }
 

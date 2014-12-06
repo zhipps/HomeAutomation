@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<link href="main.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content = "width = 420, user-scalable = no" /> 
 	<title>WebIOPi | Floor Plan</title>
@@ -23,12 +23,26 @@
 	</style>
 </head>
 <body>
-   	<div class="navigation">
-		<a href="../../index.html">phone home</a>
-	</div>
-	
-	<div class="floor-plan">
-		<h1>Floor Plan</h1>
+	<div class="navigation">
+		<h2>
+			<ul>
+				<li><a href="#">Settings &#9698;</a>
+					<ul>
+						<li><a href="/app/gpio-header">GPIO Header</a></li>
+						<li><a href="/app/gpio-list">GPIO List</a>
+						<li><a href="/app/serial-monitor">Serial Monitor</a></li>
+						<li><a href="/app/devices-monitor">Devices Monitor</a></li>
+					</ul>
+				</li>
+				<li><a href="/app/floor-plan">Floor Plan</a></li>
+				<li><a href="/app/christmas-lights">Christmas lights</a></li>
+		    </ul>
+        </h2>	
+    </div>
+    <div class="content">
+		<div class="floor-plan">
+			<h1>Floor Plan</h1>
+		</div>
 	</div>
 	
 </body>
