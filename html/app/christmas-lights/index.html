@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Cook/Hipps Christmas Lights</title>
+        <script type="text/javascript" src="/webiopi.js"></script>
+        <script type="text/javascript">
+        webiopi().ready(function() {
+                
+                // Create a "Light" labeled button for GPIO 17
+                var button = webiopi().createGPIOButton(11, "Toggle Christmas Lights");
+
+                // Append button to HTML element with ID="controls" using jQuery
+                $("#left").append(button);
+
+
+
+
+                // Refresh GPIO buttons
+                // pass true to refresh repeatedly of false to refresh once
+                webiopi().refreshGPIO(true);
+        });
+                
+        </script>
+        <style type="text/css">
+                button {
+                        display: block;
+                        margin: 5px 5px 5px 5px;
+                        width: 300px;
+                        height: 100px;
+                        font-size: 24pt;
+                        font-weight: bold;
+                        color: white;
+                        border-radius:24px;
+                }
+                    
+                #navigation
+                {
+                    background-color: Gray;
+                    font-size:45px;
+                    text-decoration: none;
+                }
+
+                #content
+                {
+                    width: 759px;
+                    height: 569px;
+                    background-image: url("https://lh3.googleusercontent.com/-xFUhf1-JB5E/UY2aWJxVPgI/AAAAAAAAAbA/zWUXCU53o2w/w759-h569-no/IMG_0950.jpg");
+                    margin: "auto";
+                    opacity: 0.5;
+                }
+
+                #gpio11.LOW {
+                        background-color: red;
+                }
+                
+                #gpio11.HIGH {
+                        background-color: Gray;
+                }
+        </style>
+</head>
+<body>
+    <div id="naviagation">
+		<h2><a href="/app/gpio-header">GPIO Header</a>
+		<a href="/app/gpio-list">GPIO List</a>
+		<a href="/app/serial-monitor">Serial Monitor</a>
+		<a href="/app/devices-monitor">Devices Monitor</a>
+	    <a href="/app/floor-plan">Floor Plan</a></h2>	
+    </div>
+    <div id=content>
+        <div id="left">
+        </div>
+        <div id="right">
+        Hello World
+        </div>
+    </div>
+</body>
+</html>
+

@@ -2,49 +2,23 @@
 <html>
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>WebIOPi | Light Control</title>
+        <title>Cook/Hipps Christmas Lights</title>
         <script type="text/javascript" src="/webiopi.js"></script>
-        <script type="text/javascript">
-        webiopi().ready(function() {
-                // Create a "Light" labeled button for GPIO 17
-                var button = webiopi().createGPIOButton(11, "Light");
 
-                // Append button to HTML element with ID="controls" using jQuery
-                $("#controls").append(button);
-
-                // Refresh GPIO buttons
-                // pass true to refresh repeatedly of false to refresh once
-                webiopi().refreshGPIO(true);
-        });
-                
-        </script>
-        <style type="text/css">
-                button {
-                        display: block;
-                        margin: 5px 5px 5px 5px;
-                        width: 160px;
-                        height: 45px;
-                        font-size: 24pt;
-                        font-weight: bold;
-                        color: white;
-                }
-                
-                #gpio17.LOW {
-                        background-color: Black;
-                }
-                
-                #gpio17.HIGH {
-                        background-color: Blue;
-                }
-        </style>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 </head>
 <body>
+    <div id="naviagation">
 		<h2><a href="/app/gpio-header">GPIO Header</a>
 		<a href="/app/gpio-list">GPIO List</a>
 		<a href="/app/serial-monitor">Serial Monitor</a>
 		<a href="/app/devices-monitor">Devices Monitor</a>
-	    <a href="/app/floor-plan">Floor Plan</a></h2>	
-        <div id="controls" align="center"></div>
+	    <a href="/app/floor-plan">Floor Plan</a>
+        <a href="/app/christmas-lights">Christmas lights</a></h2>	
+    </div>
+    <div id="content">
+        Hello World
+    </div>
 </body>
 </html>
 
