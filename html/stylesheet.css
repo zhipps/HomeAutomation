@@ -1,3 +1,4 @@
+
 .navigation
 {
 	
@@ -15,10 +16,11 @@
 .navigation ul li
 {
 	float: right;
-	width: 200px;
+    width: 200px;
 	text-align: center;    
     line-height: 75px;
     vertical-align:middle;    
+    font-size:24px;
 }
 
 .navigation ul li a
@@ -48,7 +50,14 @@
     display: block;
 }
 
+
 .content
 {
-	
+	height: 1000px; 
+}
+
+.footer
+{
+    height: 100px;
+    background-color: #CCCCCC;
 }
